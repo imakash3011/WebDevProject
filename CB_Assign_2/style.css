@@ -1,0 +1,27 @@
+ol li ul{
+  display:none;
+}
+
+
+
+ol li:hover ul{
+    display: block;
+    background-color: red;
+}
+
+/* li>ol{
+  display: block;
+} */
+
+ol ol li{
+  display: none;
+}
+
+ol ul:hover li{
+  display: block;
+  background-color: yellow
+}
+/* ul :hover ul:hover li{
+  display: block;
+  background-color: blue;
+} */
