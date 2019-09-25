@@ -1,0 +1,43 @@
+body{
+    perspective: 800px;
+}
+
+.wrap{
+    height: 400px;
+    width: 300px;
+    margin: auto;
+    transition-duration: 2s;
+    transform-style: preserve-3d; 
+}
+.wrap div{
+    height: 400px;
+    width: 300px; 
+    position: absolute;
+    backface-visibility: hidden;
+}
+
+.rock{
+    height: 400px;
+    width: 300px;
+    padding: 100px -100px;
+}
+
+.front-side{
+
+    background: gold
+    no-repeat center ;
+    /* overflow: hidden; */
+    z-index: 100;
+
+}
+
+.back-side{
+    background: aqua ;
+    transform: rotateY(180deg);
+    overflow: scroll;
+}
+
+.wrap:hover{
+    /* transform: translateZ(100px); */
+    transform: rotateY(180deg);
+}
