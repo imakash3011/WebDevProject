@@ -1,0 +1,13 @@
+#myres{
+    margin-left: 600px;
+    margin-top: 200px;
+    padding-top: 10px;
+    padding-left:30px; 
+    height: 250px;
+    width: 350px;
+    background-color: aqua;
+    box-shadow: 20px 20px 30px grey;
+}
+
+.output {border-radius: 12px;}
+.button {border-radius: 12px;}
