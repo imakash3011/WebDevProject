@@ -1,0 +1,17 @@
+#square{
+    margin-left: 600px;
+    margin-top: 200px;
+    /* border: 400px; */
+    /* text-align: center; */
+
+    padding-top: 5px;
+    height: 220px;
+    width: 350px;
+    background-color: aqua;
+    box-shadow: 20px 20px 30px grey;
+}
+
+.output {border-radius: 12px;}
+.button {border-radius: 12px;}
+
+
